@@ -20,7 +20,7 @@ ul
 {
   list-style-type: none;
   margin:auto;
-  padding-left:25px;
+  padding-left:20px;
     top: 0px;
   overflow: hidden;
   position: fixed;
@@ -64,13 +64,13 @@ li a:hover
 {
   position:fixed;
   left: 0px;
-  top:0px;
-  margin-top:0px;
+  top:20px;
+  margin-top:-20px;
   z-index:99999999;
 }
 .div2
 {
-  width: 70%;
+  width: 30%;
     height:auto;
   padding-top: 100px;
   padding-left: 250px;
@@ -123,7 +123,7 @@ li a:hover
 {
   width: 300px;
   height: 200px;
-  padding: 0px;
+  padding: 0px ;
   text-align: center;
 }
 
@@ -206,3 +206,437 @@ em{
          border-left-width: 20px;                
         }
 
+
+/* media quary*/
+/*mobile and tablets*/
+
+@media only screen and (max-width: 767px)
+{
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .logo{
+    width: 60px;
+   padding-left: 2px;
+      top: 40px;
+  }
+    .td2
+{
+  width: 30px;
+  height: 0px;
+  padding: 0px ;
+  text-align: left;
+}
+  ul 
+  {
+    width: 100%;
+      padding: 0px 25px;
+  }
+  li a 
+  {
+    width: 20px;
+    height: 12px;
+    font-size:11px;
+    padding-left: 2px;
+      text-align: left;
+  }
+  #ul1
+  {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: -18px;
+  }
+  #ul1 li a 
+  {
+    width: 15px;
+    height: 12px;
+  }
+  .dogg h1
+  {
+  font-size: 20px;
+      
+  }
+  .doggy h2
+  {
+  font-size: 17px;
+  }
+  .img{
+  width: 100px;
+  height: 150px;
+   margin: 0px -10px ; 
+  }
+    .img1{
+  width: 100px;
+  height: 150px;
+       margin: 0px -60px ;
+  }
+  .th
+  {
+  width: 100px;
+  height: 165px;
+  padding: 0px;
+  }
+  .td
+  {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  }
+  .price 
+  {
+  font-size: 12.5px;
+  }
+  p{
+  font-size: 12px;
+ margin: 20px 2px 20px 0px;
+  text-align: left;
+   text-decoration: none;
+  font-weight: normal;
+  font-family: sans-serif ;
+ 
+  }
+  
+  .dogg
+  {
+  padding: 10px;
+  width: 250px;
+  }
+  .div2
+  {
+  padding-top: 80px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  }
+  .doggy
+  {
+  font-size: 1.5px;
+  }
+  
+  
+  #end    
+  {
+  font-size: 10px;    
+  }
+  #m      
+  {     
+  font-size: 10px;
+ }    
+  #table  
+  {
+  border-spacing: 2.5px;
+  font-size: 10px ;
+ }
+  #fee 
+  {
+  font-size: 9px;
+  } 
+  #fee2   {
+  width:80px       ;
+  height: 30px       ;
+ } 
+ #foot
+ {
+ width: 97%;
+height: 135px;
+margin-bottom: 0px ;
+}
+     .th2
+  {
+  width: 0x;
+  height: 165px;
+  padding: 70px;
+  }
+}
+ 
+
+ /*--------------------------------------*/
+ /* from small to medium*/
+ @media only screen and (min-width:768px)and (max-width:991px)
+ {
+ body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .logo{
+    width: 140px;
+   padding-left: 30px;
+      top: 0px;
+  }
+    .td1
+{
+  width: 30px;
+  height: 0px;
+  padding: 0px ;
+  text-align: left;
+}
+  ul 
+  {
+    width: 100%;
+      padding: 0px 150px;
+  }
+  li a 
+  {
+    width: 50px;
+    height: 22px;
+    font-size:15px;
+    padding-left: 2px;
+      text-align: left;
+  }
+  
+  .dogg h1
+  {
+  font-size: 30px;
+  }
+  .doggy h2
+  {
+  font-size: 25px;
+  }
+  .img{
+  width: 150px;
+  height:200px;
+      padding: 0px ;
+  }
+    .img1{
+  width: 150px;
+  height: 200px;
+        
+  }
+  .th1
+  {
+  width: 0x;
+  height: 165px;
+  padding: 70px;
+  }
+  
+     .th
+  {
+  width: 100px;
+  height: 165px;
+  padding: 70px;
+  }
+  .td
+  {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+     }
+  .price 
+  {
+  font-size:15px;
+  }
+  p{
+  font-size: 15px;
+ margin: 20px 2px 20px 0px;
+  text-align: left;
+   text-decoration: none;
+  font-weight: normal;
+  font-family: sans-serif ;
+ 
+  }
+  
+  .dogg
+  {
+  padding: 30px;
+  width: 350px;
+  }
+  .div2
+  {
+  padding-top: 100px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  }
+  .doggy
+  {
+  font-size: 15px;
+  }
+  
+  
+  #end    
+  {
+  font-size: 10px;    
+  }
+  #m      
+  {     
+  font-size: 10px;
+ }    
+  #table  
+  {
+  border-spacing: 2.5px;
+  font-size: 10px ;
+ }
+  #fee 
+  {
+  font-size: 9px;
+  } 
+  #fee2   {
+  width:80px       ;
+  height: 30px       ;
+ } 
+ #foot
+ {
+ width: 97%;
+height: 135px;
+margin-bottom: 0px ;
+}
+    }
+ 
+
+ /*------------------------------------*/
+ /* meduim screen*/
+ @media only screen and (min-width:992px)and (max-width:1199px)
+{
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .logo{
+    width: 165px;
+   padding-left: 50px;
+      top: 0px;
+  }
+    .td2
+{
+  width: 30px;
+  height: 0px;
+  padding: 0px ;
+  text-align: left;
+}
+  ul 
+  {
+    width: 100%;
+      padding: 0px 190px;
+  }
+  li a 
+  {
+    width: 100px;
+    height: 22px;
+    font-size:20px;
+    padding-left: 2px;
+      text-align: left;
+  }
+  #ul1
+  {
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: -18px;
+  }
+  #ul1 li a 
+  {
+    width: 15px;
+    height: 12px;
+  }
+  .dogg h1
+  {
+  font-size: 30px;
+  }
+  .doggy h2
+  {
+  font-size: 25px;
+  }
+  .img{
+  width: 150px;
+  height:200px;
+      padding: 0px ;
+  }
+    .img1{
+  width: 150px;
+  height: 200px;
+        
+  }
+  .th2
+  {
+  width: 0x;
+  height: 165px;
+  padding: 70px;
+  }
+  .td2
+  {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  }
+     .th
+  {
+  width: 100px;
+  height: 165px;
+  padding: 70px;
+  }
+  .td
+  {
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+     }
+  .price 
+  {
+  font-size:15px;
+  }
+  p{
+  font-size: 15px;
+ margin: 20px 2px 20px 0px;
+  text-align: left;
+   text-decoration: none;
+  font-weight: normal;
+  font-family: sans-serif ;
+ 
+  }
+  
+  .dogg
+  {
+  padding: 30px;
+  width: 350px;
+  }
+  .div2
+  {
+  padding-top: 100px;
+  padding-left: 120px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  }
+  .doggy
+  {
+  font-size: 15px;
+  }
+  
+  
+  #end    
+  {
+  font-size: 10px;    
+  }
+  #m      
+  {     
+  font-size: 10px;
+ }    
+  #table  
+  {
+  border-spacing: 2.5px;
+  font-size: 10px ;
+ }
+  #fee 
+  {
+  font-size: 9px;
+  } 
+  #fee2   {
+  width:80px       ;
+  height: 30px       ;
+ } 
+ #foot
+ {
+ width: 97%;
+height: 135px;
+margin-bottom: 0px ;
+}
+    }
+/*------------------------------------*/
+ /* meduim screen*/
+ @media only screen and (min-width:1199px)
+{
+    .logo{
+        width: 180;
+        padding: 70 2;
+ 
